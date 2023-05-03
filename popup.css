@@ -3,10 +3,10 @@ html {
 }
 
 main {
-  min-width: 200px;
-  min-height: 100px;
+  min-width: 300px;
+  min-height: 200px;
   text-align: center;
-  padding:  0px 10px 10px 10px;
+  padding:  5px 15px 5px 15px;
 }
 
 h1, label {
@@ -15,14 +15,24 @@ h1, label {
 
 .buttonContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-#chkLoop {
-  margin-right: 5px;
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 16px;
 }
 
 #loop {
-  display: flex;
-  padding-bottom: 5px;
+  padding: 15px 0 15px 0;
+}
+
+h1 {
+  font-size: 28px;
 }
